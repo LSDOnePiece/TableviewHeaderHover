@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14C0BB571013D6FF556FD3F9 /* libPods-UITableView头部悬停问题UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F592B27721099547E27509D0 /* libPods-UITableView头部悬停问题UITests.a */; };
+		35938EDF5F3A16FB8F219684 /* libPods-UITableView头部悬停问题Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C649AB5664977FCD5B19267E /* libPods-UITableView头部悬停问题Tests.a */; };
+		BCAEC70FB1F30D1C002BC5C5 /* libPods-UITableView头部悬停问题.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9024B6D8FF10FEDA4242284 /* libPods-UITableView头部悬停问题.a */; };
+		EAB6B6C5204CF4610016E9CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB6B6C4204CF4610016E9CB /* AppDelegate.m */; };
+		EAB6B6C8204CF4610016E9CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB6B6C7204CF4610016E9CB /* ViewController.m */; };
+		EAB6B6CB204CF4610016E9CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB6B6C9204CF4610016E9CB /* Main.storyboard */; };
+		EAB6B6CD204CF4610016E9CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAB6B6CC204CF4610016E9CB /* Assets.xcassets */; };
+		EAB6B6D0204CF4610016E9CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB6B6CE204CF4610016E9CB /* LaunchScreen.storyboard */; };
+		EAB6B6D3204CF4610016E9CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB6B6D2204CF4610016E9CB /* main.m */; };
+		EAB6B6DD204CF4610016E9CB /* UITableView______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB6B6DC204CF4610016E9CB /* UITableView______Tests.m */; };
+		EAB6B6E8204CF4610016E9CB /* UITableView______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB6B6E7204CF4610016E9CB /* UITableView______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAB6B6D9204CF4610016E9CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAB6B6B8204CF4610016E9CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAB6B6BF204CF4610016E9CB;
+			remoteInfo = "UITableView头部悬停问题";
+		};
+		EAB6B6E4204CF4610016E9CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAB6B6B8204CF4610016E9CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAB6B6BF204CF4610016E9CB;
+			remoteInfo = "UITableView头部悬停问题";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04E605BB19CF77698331A6F9 /* Pods-UITableView头部悬停问题.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITableView头部悬停问题.release.xcconfig"; path = "Pods/Target Support Files/Pods-UITableView头部悬停问题/Pods-UITableView头部悬停问题.release.xcconfig"; sourceTree = "<group>"; };
+		2001807B2CD01224C979F746 /* Pods-UITableView头部悬停问题UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITableView头部悬停问题UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UITableView头部悬停问题UITests/Pods-UITableView头部悬停问题UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		264DE982CA37CDDEB78453C0 /* Pods-UITableView头部悬停问题.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITableView头部悬停问题.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UITableView头部悬停问题/Pods-UITableView头部悬停问题.debug.xcconfig"; sourceTree = "<group>"; };
+		44EA2BAFFD83E36BE7261221 /* Pods-UITableView头部悬停问题Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITableView头部悬停问题Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UITableView头部悬停问题Tests/Pods-UITableView头部悬停问题Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4CEC52A2250506957C8849AD /* Pods-UITableView头部悬停问题UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITableView头部悬停问题UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UITableView头部悬停问题UITests/Pods-UITableView头部悬停问题UITests.release.xcconfig"; sourceTree = "<group>"; };
+		A08747F053CBAEF15AAB9417 /* Pods-UITableView头部悬停问题Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITableView头部悬停问题Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UITableView头部悬停问题Tests/Pods-UITableView头部悬停问题Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C649AB5664977FCD5B19267E /* libPods-UITableView头部悬停问题Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UITableView头部悬停问题Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB6B6C0204CF4610016E9CB /* UITableView头部悬停问题.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITableView头部悬停问题.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB6B6C3204CF4610016E9CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAB6B6C4204CF4610016E9CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAB6B6C6204CF4610016E9CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EAB6B6C7204CF4610016E9CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EAB6B6CA204CF4610016E9CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAB6B6CC204CF4610016E9CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAB6B6CF204CF4610016E9CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAB6B6D1204CF4610016E9CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAB6B6D2204CF4610016E9CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAB6B6D8204CF4610016E9CB /* UITableView头部悬停问题Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableView头部悬停问题Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB6B6DC204CF4610016E9CB /* UITableView______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableView______Tests.m; sourceTree = "<group>"; };
+		EAB6B6DE204CF4610016E9CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAB6B6E3204CF4610016E9CB /* UITableView头部悬停问题UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableView头部悬停问题UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB6B6E7204CF4610016E9CB /* UITableView______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableView______UITests.m; sourceTree = "<group>"; };
+		EAB6B6E9204CF4610016E9CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F592B27721099547E27509D0 /* libPods-UITableView头部悬停问题UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UITableView头部悬停问题UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9024B6D8FF10FEDA4242284 /* libPods-UITableView头部悬停问题.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UITableView头部悬停问题.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAB6B6BD204CF4610016E9CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAEC70FB1F30D1C002BC5C5 /* libPods-UITableView头部悬停问题.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB6B6D5204CF4610016E9CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35938EDF5F3A16FB8F219684 /* libPods-UITableView头部悬停问题Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB6B6E0204CF4610016E9CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C0BB571013D6FF556FD3F9 /* libPods-UITableView头部悬停问题UITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A56E4A4FF445BB2142834826 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				264DE982CA37CDDEB78453C0 /* Pods-UITableView头部悬停问题.debug.xcconfig */,
+				04E605BB19CF77698331A6F9 /* Pods-UITableView头部悬停问题.release.xcconfig */,
+				A08747F053CBAEF15AAB9417 /* Pods-UITableView头部悬停问题Tests.debug.xcconfig */,
+				44EA2BAFFD83E36BE7261221 /* Pods-UITableView头部悬停问题Tests.release.xcconfig */,
+				2001807B2CD01224C979F746 /* Pods-UITableView头部悬停问题UITests.debug.xcconfig */,
+				4CEC52A2250506957C8849AD /* Pods-UITableView头部悬停问题UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB3798441DC9A3081D9F5015 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9024B6D8FF10FEDA4242284 /* libPods-UITableView头部悬停问题.a */,
+				C649AB5664977FCD5B19267E /* libPods-UITableView头部悬停问题Tests.a */,
+				F592B27721099547E27509D0 /* libPods-UITableView头部悬停问题UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAB6B6B7204CF4610016E9CB = {
+			isa = PBXGroup;
+			children = (
+				EAB6B6C2204CF4610016E9CB /* UITableView头部悬停问题 */,
+				EAB6B6DB204CF4610016E9CB /* UITableView头部悬停问题Tests */,
+				EAB6B6E6204CF4610016E9CB /* UITableView头部悬停问题UITests */,
+				EAB6B6C1204CF4610016E9CB /* Products */,
+				A56E4A4FF445BB2142834826 /* Pods */,
+				CB3798441DC9A3081D9F5015 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EAB6B6C1204CF4610016E9CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6B6C0204CF4610016E9CB /* UITableView头部悬停问题.app */,
+				EAB6B6D8204CF4610016E9CB /* UITableView头部悬停问题Tests.xctest */,
+				EAB6B6E3204CF4610016E9CB /* UITableView头部悬停问题UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAB6B6C2204CF4610016E9CB /* UITableView头部悬停问题 */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6B6C3204CF4610016E9CB /* AppDelegate.h */,
+				EAB6B6C4204CF4610016E9CB /* AppDelegate.m */,
+				EAB6B6C6204CF4610016E9CB /* ViewController.h */,
+				EAB6B6C7204CF4610016E9CB /* ViewController.m */,
+				EAB6B6C9204CF4610016E9CB /* Main.storyboard */,
+				EAB6B6CC204CF4610016E9CB /* Assets.xcassets */,
+				EAB6B6CE204CF4610016E9CB /* LaunchScreen.storyboard */,
+				EAB6B6D1204CF4610016E9CB /* Info.plist */,
+				EAB6B6D2204CF4610016E9CB /* main.m */,
+			);
+			path = "UITableView头部悬停问题";
+			sourceTree = "<group>";
+		};
+		EAB6B6DB204CF4610016E9CB /* UITableView头部悬停问题Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6B6DC204CF4610016E9CB /* UITableView______Tests.m */,
+				EAB6B6DE204CF4610016E9CB /* Info.plist */,
+			);
+			path = "UITableView头部悬停问题Tests";
+			sourceTree = "<group>";
+		};
+		EAB6B6E6204CF4610016E9CB /* UITableView头部悬停问题UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6B6E7204CF4610016E9CB /* UITableView______UITests.m */,
+				EAB6B6E9204CF4610016E9CB /* Info.plist */,
+			);
+			path = "UITableView头部悬停问题UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAB6B6BF204CF4610016E9CB /* UITableView头部悬停问题 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAB6B6EC204CF4610016E9CB /* Build configuration list for PBXNativeTarget "UITableView头部悬停问题" */;
+			buildPhases = (
+				93D12680491E6B31AF58A94C /* [CP] Check Pods Manifest.lock */,
+				EAB6B6BC204CF4610016E9CB /* Sources */,
+				EAB6B6BD204CF4610016E9CB /* Frameworks */,
+				EAB6B6BE204CF4610016E9CB /* Resources */,
+				3043D93E1805649E345F0E7C /* [CP] Embed Pods Frameworks */,
+				D55BB87D130BF4631582FEDC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UITableView头部悬停问题";
+			productName = "UITableView头部悬停问题";
+			productReference = EAB6B6C0204CF4610016E9CB /* UITableView头部悬停问题.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAB6B6D7204CF4610016E9CB /* UITableView头部悬停问题Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAB6B6EF204CF4610016E9CB /* Build configuration list for PBXNativeTarget "UITableView头部悬停问题Tests" */;
+			buildPhases = (
+				85E838C172F1510CC6E7940A /* [CP] Check Pods Manifest.lock */,
+				EAB6B6D4204CF4610016E9CB /* Sources */,
+				EAB6B6D5204CF4610016E9CB /* Frameworks */,
+				EAB6B6D6204CF4610016E9CB /* Resources */,
+				2DA4163FD302C6BAA321E6F5 /* [CP] Embed Pods Frameworks */,
+				760C825BBD28FF79D3DE74F8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAB6B6DA204CF4610016E9CB /* PBXTargetDependency */,
+			);
+			name = "UITableView头部悬停问题Tests";
+			productName = "UITableView头部悬停问题Tests";
+			productReference = EAB6B6D8204CF4610016E9CB /* UITableView头部悬停问题Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAB6B6E2204CF4610016E9CB /* UITableView头部悬停问题UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAB6B6F2204CF4610016E9CB /* Build configuration list for PBXNativeTarget "UITableView头部悬停问题UITests" */;
+			buildPhases = (
+				1E9FE1C3F7E42690D849A7A8 /* [CP] Check Pods Manifest.lock */,
+				EAB6B6DF204CF4610016E9CB /* Sources */,
+				EAB6B6E0204CF4610016E9CB /* Frameworks */,
+				EAB6B6E1204CF4610016E9CB /* Resources */,
+				35E0CA6F62496B2A15C3BB12 /* [CP] Embed Pods Frameworks */,
+				34A42300B56E91C28A17EEFB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAB6B6E5204CF4610016E9CB /* PBXTargetDependency */,
+			);
+			name = "UITableView头部悬停问题UITests";
+			productName = "UITableView头部悬停问题UITests";
+			productReference = EAB6B6E3204CF4610016E9CB /* UITableView头部悬停问题UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAB6B6B8204CF4610016E9CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = onePiece;
+				TargetAttributes = {
+					EAB6B6BF204CF4610016E9CB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EAB6B6D7204CF4610016E9CB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EAB6B6BF204CF4610016E9CB;
+					};
+					EAB6B6E2204CF4610016E9CB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EAB6B6BF204CF4610016E9CB;
+					};
+				};
+			};
+			buildConfigurationList = EAB6B6BB204CF4610016E9CB /* Build configuration list for PBXProject "UITableView头部悬停问题" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAB6B6B7204CF4610016E9CB;
+			productRefGroup = EAB6B6C1204CF4610016E9CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAB6B6BF204CF4610016E9CB /* UITableView头部悬停问题 */,
+				EAB6B6D7204CF4610016E9CB /* UITableView头部悬停问题Tests */,
+				EAB6B6E2204CF4610016E9CB /* UITableView头部悬停问题UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAB6B6BE204CF4610016E9CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB6B6D0204CF4610016E9CB /* LaunchScreen.storyboard in Resources */,
+				EAB6B6CD204CF4610016E9CB /* Assets.xcassets in Resources */,
+				EAB6B6CB204CF4610016E9CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB6B6D6204CF4610016E9CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB6B6E1204CF4610016E9CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E9FE1C3F7E42690D849A7A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2DA4163FD302C6BAA321E6F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UITableView头部悬停问题Tests/Pods-UITableView头部悬停问题Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3043D93E1805649E345F0E7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UITableView头部悬停问题/Pods-UITableView头部悬停问题-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34A42300B56E91C28A17EEFB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UITableView头部悬停问题UITests/Pods-UITableView头部悬停问题UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35E0CA6F62496B2A15C3BB12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UITableView头部悬停问题UITests/Pods-UITableView头部悬停问题UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		760C825BBD28FF79D3DE74F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UITableView头部悬停问题Tests/Pods-UITableView头部悬停问题Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85E838C172F1510CC6E7940A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		93D12680491E6B31AF58A94C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D55BB87D130BF4631582FEDC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UITableView头部悬停问题/Pods-UITableView头部悬停问题-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAB6B6BC204CF4610016E9CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB6B6C8204CF4610016E9CB /* ViewController.m in Sources */,
+				EAB6B6D3204CF4610016E9CB /* main.m in Sources */,
+				EAB6B6C5204CF4610016E9CB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB6B6D4204CF4610016E9CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB6B6DD204CF4610016E9CB /* UITableView______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB6B6DF204CF4610016E9CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB6B6E8204CF4610016E9CB /* UITableView______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAB6B6DA204CF4610016E9CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAB6B6BF204CF4610016E9CB /* UITableView头部悬停问题 */;
+			targetProxy = EAB6B6D9204CF4610016E9CB /* PBXContainerItemProxy */;
+		};
+		EAB6B6E5204CF4610016E9CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAB6B6BF204CF4610016E9CB /* UITableView头部悬停问题 */;
+			targetProxy = EAB6B6E4204CF4610016E9CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAB6B6C9204CF4610016E9CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAB6B6CA204CF4610016E9CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAB6B6CE204CF4610016E9CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAB6B6CF204CF4610016E9CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAB6B6EA204CF4610016E9CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAB6B6EB204CF4610016E9CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAB6B6ED204CF4610016E9CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 264DE982CA37CDDEB78453C0 /* Pods-UITableView头部悬停问题.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UITableView头部悬停问题/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "onePiece.UITableView------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAB6B6EE204CF4610016E9CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04E605BB19CF77698331A6F9 /* Pods-UITableView头部悬停问题.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UITableView头部悬停问题/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "onePiece.UITableView------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EAB6B6F0204CF4610016E9CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A08747F053CBAEF15AAB9417 /* Pods-UITableView头部悬停问题Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UITableView头部悬停问题Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "onePiece.UITableView------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITableView头部悬停问题.app/UITableView头部悬停问题";
+			};
+			name = Debug;
+		};
+		EAB6B6F1204CF4610016E9CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44EA2BAFFD83E36BE7261221 /* Pods-UITableView头部悬停问题Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UITableView头部悬停问题Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "onePiece.UITableView------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITableView头部悬停问题.app/UITableView头部悬停问题";
+			};
+			name = Release;
+		};
+		EAB6B6F3204CF4610016E9CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2001807B2CD01224C979F746 /* Pods-UITableView头部悬停问题UITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UITableView头部悬停问题UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "onePiece.UITableView------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UITableView头部悬停问题";
+			};
+			name = Debug;
+		};
+		EAB6B6F4204CF4610016E9CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CEC52A2250506957C8849AD /* Pods-UITableView头部悬停问题UITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UITableView头部悬停问题UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "onePiece.UITableView------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UITableView头部悬停问题";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAB6B6BB204CF4610016E9CB /* Build configuration list for PBXProject "UITableView头部悬停问题" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB6B6EA204CF4610016E9CB /* Debug */,
+				EAB6B6EB204CF4610016E9CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAB6B6EC204CF4610016E9CB /* Build configuration list for PBXNativeTarget "UITableView头部悬停问题" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB6B6ED204CF4610016E9CB /* Debug */,
+				EAB6B6EE204CF4610016E9CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAB6B6EF204CF4610016E9CB /* Build configuration list for PBXNativeTarget "UITableView头部悬停问题Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB6B6F0204CF4610016E9CB /* Debug */,
+				EAB6B6F1204CF4610016E9CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAB6B6F2204CF4610016E9CB /* Build configuration list for PBXNativeTarget "UITableView头部悬停问题UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB6B6F3204CF4610016E9CB /* Debug */,
+				EAB6B6F4204CF4610016E9CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAB6B6B8204CF4610016E9CB /* Project object */;
+}
